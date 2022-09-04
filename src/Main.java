@@ -21,9 +21,9 @@ public class Main {
         long s = 987678965549L;
         double d = 2.786;
         boolean f = false;
-        short g = 569;
+        char g = 569;
         short h = -159;
-        short j = 27897;
+        int j = 27897;
         byte k = 67;
 
         //Задача 3
@@ -40,9 +40,9 @@ public class Main {
         byte bottle = 16;
         byte month = 30;
         System.out.println("За 20 минут машина произвела бутылок " + (20 / productionTime * bottle) + " штук.");
-        System.out.println("В сутки машина произвела бутылок " + ((60*60*24) / productionTime * bottle) + " штук.");
-        System.out.println("За 3 дня машина произвела бутылок " + ((60*60*24*3) / productionTime * bottle) + " штук.");
-        System.out.println("За 1 месяц машина произвела бутылок " + ((60*60*24*month) / productionTime * bottle) + " штук.");
+        System.out.println("В сутки машина произвела бутылок " + ((60*24) / productionTime * bottle) + " штук.");
+        System.out.println("За 3 дня машина произвела бутылок " + ((60*24*3) / productionTime * bottle) + " штук.");
+        System.out.println("За 1 месяц машина произвела бутылок " + ((60*24*month) / productionTime * bottle) + " штук.");
 
         //Задача 5
         System.out.println("Задача 5");
